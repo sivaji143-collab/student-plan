@@ -1,0 +1,52 @@
+{
+    "greet": [
+        "Hello! I'm your minimal study planner agent. How can I help you organize your tasks today?",
+        "Welcome back! Ready to get studying? Let me know what you'd like to do.",
+        "Hi there! What tasks are on your mind? You can add, list, complete, or ask for a recommendation."
+    ],
+    "add_task_success": [
+        "Got it! I've added '{topic}' to your study list.",
+        "Task '{topic}' is officially on the board. Great work!",
+        "Successfully saved! You need {time_needed} minutes for '{topic}'."
+    ],
+    "add_task_incomplete": [
+        "I need a topic and time to add a task. What topic do you need to study and for how long?",
+        "To add a task, please tell me the topic, how difficult it is (1-5), and how many minutes you need.",
+        "Please provide the topic (e.g., 'Linear Algebra') and the time needed (e.g., '60 minutes')."
+    ],
+    "view_tasks_empty": [
+        "Your study list is completely clear! Time to add some new tasks.",
+        "Nothing scheduled yet. Use 'add task...' to start planning!",
+        "Your memory is pristine. Let's populate it with some tasks!"
+    ],
+    "view_tasks_header": [
+        "Here is your current study list (showing {count} pending tasks):\n{tasks_list}",
+        "You have {count} pending items. Get them done!\n{tasks_list}",
+        "Study Plan Snapshot:\n{tasks_list}"
+    ],
+    "recommend_task": [
+        "I recommend you tackle: {task_details}",
+        "Based on priority, your next best task is:\n{task_details}",
+        "Let's get this done! Try this one:\n{task_details}"
+    ],
+    "recommend_none": [
+        "Awesome! All your tasks are completed. You've earned a break!",
+        "I can't recommend a task right now because everything is done. Feel free to add more!",
+        "No pending tasks found. Your planner is empty."
+    ],
+    "complete_task_success": [
+        "Congratulations! Task '{topic}' is now marked as complete. Well done!",
+        "One step closer to your goal! '{topic}' is done.",
+        "Finished '{topic}'. You're crushing it! What's next?"
+    ],
+    "complete_task_not_found": [
+        "I couldn't find a task matching '{query}'. Please check the ID or topic and try again.",
+        "Task '{query}' doesn't seem to be in your pending list.",
+        "Need a valid task ID or topic to mark as complete. Are you sure that's correct?"
+    ],
+    "nlu_fallback": [
+        "I'm not sure how to help with that. Try commands like 'add task', 'list tasks', 'recommend', or 'complete task 1234'.",
+        "Could you rephrase that? I'm designed to help you with study planning.",
+        "My apologies, I didn't catch the intent. What specific action would you like to take?"
+    ]
+}
